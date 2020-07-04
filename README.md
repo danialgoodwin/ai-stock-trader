@@ -10,7 +10,11 @@ Using Ally Bank:
 
 ## Resources
 - [Ally bank Invest API](https://www.ally.com/api/invest/documentation/getting-started/)
-
+    - https://live.invest.ally.com/applications
+    - https://www.ally.com/api/invest/documentation/trading/
+    - https://www.ally.com/api/invest/documentation/market-ext-quotes-get-post/
+    - https://www.ally.com/api/invest/documentation/streaming-market-quotes-get-post/
+    - https://www.ally.com/api/invest/documentation/market-toplists-get/
 
 
 ## Stock Ideas
