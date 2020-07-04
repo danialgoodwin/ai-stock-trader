@@ -3,6 +3,20 @@ import json
 from requests_oauthlib import OAuth1Session
 
 
+# Ads: Facebook, Google, Roku, Twitter
+# Cheap goods: Amazon, Costco (COST), Dollar Tree (DLTR), Kroger (KO), Ross (ROST), Walmart (WMT)
+# Medical: Clorox (CLX), Johnson & Johnson (JNJ)
+# Fast food: Chipotle (CMG), Coca-Cola (KO), Domino's pizza (DPZ), McDonald's (MCD), Starbucks (SBUX), Wendy's
+# Small business stocks: Shopify (SHOP), Square (SQ)
+# Social media: Facebook, Twitter
+# Subscription: Netflix, Spotify, Verizon (VZ)
+# Tech: Amazon, Apple, Facebook, Google, Microsoft
+STOCKS = ['AMD', 'AMZN', 'AAPL', 'CAT', 'CLX', 'CMG', 'COST',
+          'DIS', 'DLTR', 'DPZ', 'EBAY', 'FB', 'GOOG', 'INTC', 'JNJ', 'JPM', 'KO', 'KR',
+          'MCD', 'MMM', 'MSFT', 'NFLX', 'NKE', 'NVDA', 'PYPL', 'QCOM', 'ROKU', 'ROST',
+          'SAP', 'SBUX', 'SHOP', 'SPOT', 'SQ', 'TGT', 'TMUS', 'TWTR', 'V', 'VZ', 'WEN', 'WMT']
+
+
 BASE_API = 'https://api.tradeking.com/v1'
 BASE_STREAM_API = 'https://stream.tradeking.com/v1'
 
