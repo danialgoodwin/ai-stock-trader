@@ -17,7 +17,7 @@ Using Ally Bank:
     - https://www.ally.com/api/invest/documentation/streaming-market-quotes-get-post/
     - https://www.ally.com/api/invest/documentation/market-toplists-get/
 - Other stock market APIs:
-    - Looks great for historical data: https://pypi.org/project/yahoo-finance/
+    - Looks good for historical data: https://www.alphavantage.co/
 - Stock market news:
     - https://www.cnn.com/business
     - https://www.cnn.com/world
@@ -30,3 +30,6 @@ Using Ally Bank:
 ## Stock Ideas
 - Find the stocks with the biggest losses recently
 - Invest in things that will change people's lives
+
+Maybe not:
+- https://en.wikipedia.org/wiki/Nelson_rules
